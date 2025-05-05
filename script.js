@@ -1,6 +1,6 @@
 const apiKey = "25324c8224a28a2b23fdb35ce923947e";
 const baseUrl = "https://api.openweathermap.org/data/2.5";
-const iconUrl = "https://api.openweathermap.org/img/wn/";
+const iconUrl = "https://openweathermap.org/img/wn/";
 
 const cityInput = document.querySelector("#city-input");
 const searchBtn = document.querySelector("#search-btn");
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.body.classList.remove("night")
         }
         else {
-            document.body.classList.add("night")
+            document.body.classList.add("night") 
         }
     }
 
