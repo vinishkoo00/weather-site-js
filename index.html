@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="weather-app">
+        <div class="search-field">
+            <input autofocus type="text" id="city-input" placeholder="Введите название города ...">
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+
+        <div class="weather-info">
+            <div class="city-info">
+                <h2 id="city-name">Москва</h2>
+                <p id="date-time">14 апреля 2025г.</p>
+            </div>
+            <div class="temp-info">
+                <img src="" alt="Иконка погоды" id="weather-icon">
+                <h1 id="temperature">0℃</h1>
+                <p id="weather-description">Ясно</p>
+            </div>
+
+            <div class="details">
+                <div class="detail-item">
+                    <i class="fas fa-temperature-low"></i>
+                    <div>
+                        <p>Ощущается как</p>
+                        <p id="feels-like">0℃</p>
+                    </div>
+                </div>
+
+                <div class="detail-item">
+                    <i class="fas fa-droplet"></i>
+                    <div>
+                        <p>Влажность</p>
+                        <p id="humidity">0%</p>
+                    </div>
+                </div>
+
+                <div class="detail-item">
+                    <i class="fas fa-wind"></i>
+                    <div>
+                        <p>Ветер</p>
+                        <p id="wind-speed">0 м/c</p>
+                    </div>
+                </div>
+                <div class="detail-item">
+                    <i class="fas fa-minimize"></i>
+                    <div>
+                        <p>Давление</p>
+                        <p id="pressure">0 кПа</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="forecast" id="forecast-container"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
