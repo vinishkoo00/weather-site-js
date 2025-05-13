@@ -35,14 +35,14 @@ body{
 }
 
 .night{
-    background: linear-gradient(64deg,rgb(43, 101, 150), rgb(7, 70, 121)) !important;
+    background: linear-gradient(64deg,rgb(128, 66, 228), rgb(16, 114, 194)) !important;
     
     p, h1, h2, .fa-search{
         color: white !important;
     }
 
     .weather-app{
-        background-color: rgb(30, 56, 77) !important;
+        background-color: rgba(0, 0, 0, 0.432) !important;
     }
 }
 
